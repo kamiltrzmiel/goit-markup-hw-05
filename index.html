@@ -61,7 +61,7 @@
       <section class="motto section">
         <div class="motto-frame">
           <h1 class="motto-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="motto-button">Zamów usługę</button>
+          <button type="button" class="motto-button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <!-------DESCRIPTION--------->
@@ -381,5 +381,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

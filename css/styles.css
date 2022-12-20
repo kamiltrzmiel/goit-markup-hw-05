@@ -86,7 +86,7 @@ body {
 .address-list-item-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -125,7 +125,7 @@ body {
   fill: var(--page-color-white);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: background-color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -173,7 +173,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: var(--page-color-black);
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -219,7 +219,7 @@ body {
   text-decoration: none;
   color: var(--page-color-grey);
   fill: var(--page-color-grey);
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -265,6 +265,7 @@ body {
   color: var(--page-color-white);
   background-color: var(--page-color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-property: color, background-color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -436,7 +437,6 @@ body {
   letter-spacing: 0.03em;
   margin-top: 30px;
   margin-bottom: 10px;
-  transition-property: var(--page-color-black), var(--page-color-white);
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -448,14 +448,13 @@ body {
   color: var(--page-color-grey);
   display: inline-block;
   padding-bottom: 16px;
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-icon {
   fill: var(--page-color-lgrey);
   padding-bottom: 0px;
-  transition-property: var(--page-color-black), var(--page-color-white);
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -512,7 +511,6 @@ body {
 }
 .customer-ico {
   fill: var(--page-color-lgrey);
-  transition-property: var(--page-color-black), var(--page-color-white);
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -544,7 +542,7 @@ body {
   border: none;
   border-radius: 5px;
   background-color: var(--page-color-team);
-  transition-property: var(--page-color-black), var(--page-color-white);
+  transition-property: background-color;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
